@@ -1,42 +1,25 @@
 {
-  "name": "inspire-me",
+  "name": "hapi-api-plugin",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raelcun/InspireMe.git"
+    "url": "git+ssh://git@github.com/raelcun/Hapi-API-Plugin.git"
   },
   "author": "Dan Taylor",
-  "license": "GPL-2.0",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/raelcun/InspireMe/issues"
+    "url": "https://github.com/raelcun/Hapi-API-Plugin/issues"
   },
-  "homepage": "https://github.com/raelcun/InspireMe#readme",
+  "homepage": "https://github.com/raelcun/Hapi-API-Plugin#readme",
   "dependencies": {
-    "bcrypt": "^0.8.5",
-    "bluebird": "^3.0.6",
     "boom": "^3.0.0",
     "hapi": "^11.1.2",
-    "hapi-auth-jwt2": "^5.2.1",
-    "joi": "^7.0.1",
-    "jsonwebtoken": "^5.4.1",
     "lodash": "^3.10.1",
-    "mongodb": "^2.0.52",
-    "mongoose": "^4.3.1",
-    "mongoose-hidden": "^0.5.1",
-    "source-map-support": "^0.4.0"
-  },
-  "devDependencies": {
-    "gulp-coffee": "^2.3.1",
-    "gulp-coffeelint": "^0.6.0",
-    "gulp-nodemon": "^2.0.4",
-    "gulp-rimraf": "^0.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-watch": "^4.3.5",
-    "streamqueue": "^1.1.1"
+    "mongoose": "^4.3.1"
   }
 }
